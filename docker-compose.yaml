@@ -12,8 +12,8 @@ services:
     networks:
       - minionetwork
     environment:
-      MINIO_ROOT_USER: minioadm
-      MINIO_ROOT_PASSWORD: g#9umqCZ6tXSEP
+      MINIO_ROOT_USER: minioadm # Modificar
+      MINIO_ROOT_PASSWORD: g#9umqCZ6tXSEP # Modificar
     command: server /data --console-address ":9001"
 
 networks:
